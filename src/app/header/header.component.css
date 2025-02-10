@@ -1,0 +1,78 @@
+footer{
+    background-color: rgb(19, 22, 22);
+    margin: -8px;
+    padding-top: 2px;
+}
+
+.horizontal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    list-style: none;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.headerDown{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-bottom: 20px;
+}
+
+.headerDown a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 100px;
+    transition: 0.3s ease;
+    
+}
+
+.headerDown a:hover{
+    color: rgba(255, 228, 196, 0.663);
+}
+
+.h2header{
+    color: cadetblue;
+    margin-top: -10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.horizontalRight{
+    margin-right: 20px;
+}
+
+#span2{
+    margin-left: 5px;
+}
+
+.estancias{
+    text-align: center;
+    background-color: rgb(231, 228, 224);
+    margin-top: -16px;
+    margin-left: -10px;
+    margin-right: -8px;
+    padding-top: 7px;
+}
+
+.estancias p{
+    margin-top: -20px;
+    padding-bottom: 19px;
+}
+
+.horizontal span:hover{
+    color: rgba(255, 228, 196, 0.663);
+    transition: 0.3s ease;
+}
+
+.headerUp span{
+    transition: 0.3s ease;
+}
+

@@ -1,0 +1,122 @@
+<section class="main-conteiner">
+    <div class="imagen-conteiner">
+        <div class="imagen-content">
+            <img [src]="imagen" alt="Casa Portada"  class="imgMain" >
+            <div class="imagen-menu">
+
+                <img src="img/Casa portada.webp" alt="1" width="79" (mouseenter)="colocarImagen(1)">
+                <img src="img/sala.jpg" alt="2" width="79" class="img2" (mouseenter)="colocarImagen(2)">
+                <img src="img/recámara.webp" alt="3" width="79" (mouseenter)="colocarImagen(3)">
+
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="formulario-conteiner">
+        <form action="">
+            <div class="hues-noch">
+                <nav class="Huesped">
+                    <p class="tituloHN">Huesped</p>
+                    <div class="Huesped-btn">
+                        <button type="button" (click)="cambiarHuepedes(-1)">-</button>
+                        <p>{{huespedes}}</p>
+                        <button type="button" (click)="cambiarHuepedes(+1)">+</button>
+                    </div>
+                </nav>
+                <nav class="Noches">
+                    <p class="tituloHN">Noches</p>
+                    <div class="Noches-btn">
+                        <button type="button" (click)="cambiarNoches(-1)">-</button>
+                        <p>{{noches}}</p>
+                        <button type="button" (click)="cambiarNoches(+1)">+</button>
+                    </div>
+                </nav>
+            </div>
+            <hr>
+            <div>
+                <h3>Extras</h3>
+                <p><input type="checkbox" (change)="sumarExtra($event, 250)">+ Mascota $250.00 MXN</p>
+                <p><input type="checkbox" (change)="sumarExtra($event, 500)">+ Calefaccion $500.00 MXN</p>
+                <p><input type="checkbox" (change)="sumarExtra($event, 150)">+ Ruta de Montanas $150.00 MXN</p>
+                <p><input type="checkbox" (change)="sumarExtra($event, 200)">+ Senderismo$200.00 MXN</p>
+                <p><input type="checkbox" (change)="sumarExtra($event, 50)">+ Vsitia a la cascada $50.00 MXN</p>
+            </div>
+            <hr>
+            <div class="total-content">
+                <p>Total Con Impuestos</p>
+                <p>${{total}}MXN</p>
+            </div>
+            <div class="Reservar">
+                <a href="">Reservar</a>
+            </div>
+        </form>
+    </div>
+</section>
+
+<section class="info-conteiner">
+    <div class="alojamineto">
+        <h1>ALOJAMIENTO ENTERO</h1>
+        <p>CASA DE CAMPO EN TEPOZTITLAN</p>
+    </div>
+
+    <div class="huespeds">
+        <h1>MAS DE 16 HUESPEDES</h1>
+        <p>6 HABITACIONES</p>
+        <p>6 BANO</p>
+    </div>
+
+    <div class="anfitrion">
+        <h1>ANFITRION</h1>
+        <p>DIEGO</p>
+        <p>2 ANOS DE EXPERIENCIA</p>
+    </div>
+</section>
+
+<section class="estancias-content">
+    <h1>ESTANCIAS</h1>
+    <div class="estancias-cards">
+        <div class="estancias-card">
+            <img src="img/ESTANCIA 1.png" alt="">
+            <h2>PLAZA BONANZA</h2>
+            <p>DESCANSAR Y RETIRARSE EN UNA CASA CON LA MEJOR COMODIDAD</p>
+        </div>
+        <div class="estancias-card">
+            <img src="img/ESTANCIA 2.png" alt="" class="img2estan">
+            <h2>ADOSADO COLORIDO</h2>
+            <p>MIRA EL OCEANO, ESCUCHA LAS OLAS Y DISFRITA EL MAR, COMODAMENTE</p>
+        </div>
+        <div class="estancias-card">
+            <img src="img/ESTANCIA 3.png" alt="">
+            <h2>SANTUARIO ANTIGUO</h2>
+            <p>ENCUENTRA LA CASA DE TUS SUENOS CERCA DEL COLEGIO Y DE TU OFICINA</p>
+        </div>
+    </div>
+</section>
+
+<section class="politicas-content">
+    <h1>QUE DEBES DE SABER</h1>
+    <div class="politicas-cards">
+        <div class="politicas-card">
+            <h2>REGLAS DE LA CASA</h2>
+            <p>LLEGADA A PARTIR DE LAS 3:00 P.M.</p>
+            <p>SALIDA ANTES DE LAS 1:00 P.M.</p>
+            <p>NO SE ADMITEN MASCOTAS</p>
+            <a href="">SABER MAS ></a>
+        </div>
+        <div class="politicas-card">
+            <h2>SEGURIDAD Y PROPIEDAD</h2>
+            <p>NO HAY ALARMA DE HUMO.</p>
+            <p>ALBERCA/JACUZZI SIN REJA NI PUERTA CON LLAVE.</p>
+            <p>NO SE REQUIERE DETECTOR DE MONOXIDO DE CARBONO</p>
+            <a href="">SABER MAS ></a>
+        </div>
+        <div class="politicas-card">
+            <h2>POLITICA DE CANCELACION</h2>
+            <p>SI CANCELAS ANTES DE LA FECHA DE LLEGADA (5 ENE.),RECIBIRAS UN REEMBOLSO PARCIAL.</p>
+            <p>PASADO ESE PLAZO, TU REEMBOLSO DEPENDERA DE CUANDO CANCELES.</p>
+            <p>NO SE ADMITEN MASCOTAS</p>
+            <a href="">SABER MAS ></a>
+        </div>
+    </div>
+</section>
