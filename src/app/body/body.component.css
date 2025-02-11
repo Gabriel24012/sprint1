@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Permanent+Marker&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Permanent+Marker&family=Tangerine:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
 
 .main-conteiner{
     display: flex;
     justify-content: space-around;
     margin-top: 70px;
+    font-family: Alkatra;
+    font-size: 15px;
 }
-
-
 
 .imgMain{
     box-shadow: 10px 6px 10px rgba(0, 0, 0, 0.348);
@@ -97,6 +98,7 @@
     justify-content: center;
     display: flex;
     background-color: rgb(188, 192, 196);
+    background-color: rgba(234, 132, 36, 0.721);
     text-decoration: none;
     color: black;
     padding: 10px;
@@ -108,8 +110,7 @@
 
 .Reservar a:hover{
     transition: 0.3s ease;
-    background-color: rgba(234, 132, 36, 0.721);
-
+    background-color: rgb(188, 192, 196);
 }
 
 .hues-noch button{
@@ -140,10 +141,12 @@
     display: flex;
     justify-content: space-around;
     margin: 80px 180px;
+    font-family: Alkatra;
 }
 
 .estancias-content {
     text-align: center;
+    font-family: Alkatra;
 }
 
 .estancias-content img{
@@ -183,6 +186,7 @@
     padding-top: 20px;
     margin: 60px -8px;
     padding-bottom: 40px;
+    font-family: Alkatra;
 }
 
 .politicas-cards{

@@ -14,7 +14,7 @@ export class BodyComponent {
   huespedes:number= 1;
   noches:number=1;
   extras:number=0;
-  total:number=1000;
+  total:number=1500;
 
   colocarImagen(num:number):void{
 
@@ -30,7 +30,6 @@ export class BodyComponent {
   }
 
   cambiarHuepedes(valor:number){
-
     if(this.huespedes + valor >=1){
       this.huespedes +=valor;
       this.calcularTotal(); 
